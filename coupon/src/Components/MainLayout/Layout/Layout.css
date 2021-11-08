@@ -1,0 +1,34 @@
+.Layout {
+  height: 100%;
+  box-sizing: border-box;
+  display: grid; /*2d*/
+
+  position: relative;
+}
+/* .Layout>header{
+   height: 6vh;
+  position: sticky;
+  overflow: none;
+} */
+/*
+.Layout>footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+*/
+
+.Layout > main {
+  border: 0px solid salmon;
+  /* padding-bottom: 20%; */
+  margin-top: 0;
+}
+.Layout > * {
+  border: 0px solid gold;
+}
+
+.Button {
+  position: relative;
+}

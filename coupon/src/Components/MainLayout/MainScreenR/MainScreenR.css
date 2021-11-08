@@ -1,0 +1,54 @@
+.MainScreen {
+  padding: auto;
+  font-size: 100%;
+  height: 100%;
+  border: 0px solid gold;
+  overflow: hidden;
+}
+.MainUp {
+  /* background-image: url(../../Assests/gray4.png); */
+
+  height: 35rem;
+}
+
+.MainLeft {
+  text-align: left;
+  padding-left: 150px;
+  font-size: 150%;
+}
+
+.MainDown {
+  border: 0px solid salmon;
+  width: 100%;
+  font-size: 100%;
+}
+
+.MainBeforeFooterLeft {
+  float: left;
+  margin-left: 15%;
+  width: 33%;
+  height: 30rem;
+  border: 2px solid salmon;
+}
+.MainBeforeFooterLeftInside {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.MainBeforeFooterRight {
+  float: right;
+  margin-right: 15%;
+  width: 33%;
+  height: 30rem;
+  border: 2px solid sandybrown;
+}
+
+.MainDownShowCaseNav input {
+  border: 2px solid black;
+  background: white;
+  margin: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}

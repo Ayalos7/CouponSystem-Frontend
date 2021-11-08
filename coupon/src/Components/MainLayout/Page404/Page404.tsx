@@ -1,0 +1,13 @@
+import "./Page404.css";
+
+function Page404(): JSX.Element {
+    return (
+        <div className="Page404">
+            <h1 className="font-bold text-2xl sm:text-4xl mb-8 text-black"> 404 </h1>
+            <br />
+            <h1 className="font-bold text-2xl sm:text-4xl mb-8 text-black">  Page not found   </h1>
+        </div>
+    );
+}
+
+export default Page404;
