@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: black;
+  background-color: rgb(233, 236, 236);
+  height: 100%;
+}
+
+.Box {
+  text-align: center;
+  border: 1px solid black;
+  padding: 0 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px;
+}
+
+.smallBox {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin: 40px;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  background-color: rgb(143, 228, 235);
+}
+.smallBoxProfile {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin: 80px;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+ .bigBox5 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 12px 12px;
+
+  border-radius: 10px;
+  width: 250px;
+  transition: all 0.2s ease;
+} 
+
+/* .bigBox:hover {
+  background-color: rgb(218, 224, 224);
+} */
+
+.Layout > footer {
+  background-color: black;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: 8em; /*change height*/
+}
